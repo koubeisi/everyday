@@ -10,24 +10,30 @@ public class ArgsDemo {
 
         int a = 2;
 
-        String s1 = "hello world";
+        String str = "hello";
         Integer i = 10;
 
         Person xiaoming = new Person("xiaoming");
 
+        change(a, str, i, xiaoming);
 
-        change(xiaoming);
-
+        System.out.println(a);
+        System.out.println(str);
+        System.out.println(i);
+        System.out.println(xiaoming);
     }
 
-    public static void change(Person person){
+    public static void change(int a,String str,Integer i,Person person){
+        a = 3;
+        str = str + "world";
+        i =20;
         person.name = "xiaohuang";
     }
 
-static class Person{
-    private String name;
-    public Person(String name){
-        this.name = name;
+    static class Person{
+        private String name;
+        public Person(String name){
+            this.name = name;
+        }
     }
-}
 }
