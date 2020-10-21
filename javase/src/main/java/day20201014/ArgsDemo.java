@@ -11,12 +11,15 @@ public class ArgsDemo {
     public static void main(String[] args) {
 
         int a = 2;
-        String str = "hello world";
+
+        String str = "hello";
+
         Integer i = 10;
         int[] arr = {1,2,3,4,5};
         Person xiaoming = new Person("xiaoming");
 
         change(a,str,i,arr,xiaoming);
+
 
         System.out.println(a);
         System.out.println(str);

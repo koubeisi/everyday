@@ -16,9 +16,9 @@ public class Bootstrap {
         // 调用子类的静态方法时，会先初始化父类的静态方法
 //        Son.method();
 
-//        Son son = new Son();
-//        System.out.println();
-//        Son son1 = new Son();
+        new Son();
+        System.out.println();
+        new Son();
 
     }
 }

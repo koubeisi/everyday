@@ -6,12 +6,12 @@ package day20201013;
  */
 public class Father {
 
-    private int i = test();
-    private static int j = method();
-
     static {
         System.out.print(1 + "\t");
     }
+    private int i = test();
+    private static int j = method();
+
 
     Father(){
         System.out.print(2 + "\t");
@@ -30,4 +30,5 @@ public class Father {
         System.out.print(5 + "\t");
         return 1;
     }
+
 }

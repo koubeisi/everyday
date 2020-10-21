@@ -30,8 +30,4 @@ public class Son extends  Father {
         System.out.print(10 + "\t");
         return 1;
     }
-
-//    public static void main(String[] args) {
-//
-//    }
 }

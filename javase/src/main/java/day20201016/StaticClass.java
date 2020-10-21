@@ -1,6 +1,8 @@
 package day20201016;
 
 /**
+ * 静态内部类
+ *
  * @author KouBeisi
  * @date 2020/10/14
  */
@@ -21,9 +23,10 @@ public class StaticClass {
     }
 
     public static void main(String[] args) {
-//        Person.test();
+        Person.test();
+        System.out.println(Person.s1);
 //        System.out.println(Person.s1);
-        new Person();
+//        new Person();
     }
 
     public void print(){
