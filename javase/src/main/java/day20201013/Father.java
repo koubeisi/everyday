@@ -30,5 +30,4 @@ public class Father {
         System.out.print(5 + "\t");
         return 1;
     }
-
 }
