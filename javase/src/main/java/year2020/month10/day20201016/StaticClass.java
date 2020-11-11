@@ -24,12 +24,8 @@ public class StaticClass {
 
     public static void main(String[] args) {
         Person.test();
-        System.out.println(Person.s1);
 //        System.out.println(Person.s1);
-//        new Person();
+        new Person();
     }
 
-    public void print(){
-
-    }
 }

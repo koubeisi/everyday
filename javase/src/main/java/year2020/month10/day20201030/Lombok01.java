@@ -1,5 +1,6 @@
 package year2020.month10.day20201030;
 
+import com.sun.istack.internal.NotNull;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import lombok.var;
@@ -13,7 +14,7 @@ import java.util.HashSet;
  * @date 2020/10/29
  */
 @Slf4j
-public class Lombok {
+public class Lombok01 {
 
     public String val() {
         val example = new ArrayList<String>();
