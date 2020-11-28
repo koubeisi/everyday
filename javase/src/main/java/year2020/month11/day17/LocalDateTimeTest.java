@@ -38,7 +38,7 @@ public class LocalDateTimeTest {
         var localDateTime2 = localDate.atTime(localTime);
         log.info("localDateTime2:{}", localDateTime2);
         var localDateTime3 = localTime.atDate(localDate);
-        log.info("localDateTime2:{}", localDateTime3);
+        log.info("localDateTime3:{}", localDateTime3);
 
 
         // 方式四：解析字符串创建
